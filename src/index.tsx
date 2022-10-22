@@ -5,7 +5,9 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 declare global {
-  interface Window { perspective: any; }
+  interface Window {
+    perspective: any;
+  }
 }
 
 /**
